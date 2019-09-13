@@ -1,6 +1,8 @@
 # AWS-Certified-Machine-Learning-Study-Notes
 AWS Certified Machine Learning – Study Notes
 
+> These notes are written by a data scientist, so basic topics are glanced over: regression, train-test splits, overfitting etc.
+
 # Learning Path
 1. [Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
 
