@@ -40,4 +40,4 @@ _(Source: https://keras.io/)_
 
 __Or, to put it another way:__
 
-TensorFlow is a complex tool. Keras has been built ontop of TensorFlow as a more user-friendly interface. It helps us rapidly prototype models, and we use it in this lab.
+TensorFlow is a complex tool. Keras has been built on top of TensorFlow as a more user-friendly interface. It helps us rapidly prototype models, and we use it in this lab.
