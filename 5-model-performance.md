@@ -23,4 +23,14 @@ Confusion matrix
 * Correct / total = Accuracy
 * How correct overall am I?
 
-**ROC / AUC**: 
+**ROC / AUC**: Visualise the balance of sensitivity (TPR) and specificity (FPR) of a  binary classifier when using different cutoff points for the classification 
+
+https://www.youtube.com/watch?v=4jRBRDbJemM
+![](img/roc-max-sens.png)
+![](img/roc-roc.png)
+
+**GINI Impurity**: Measure of impurity when evaluating which feature to use in splitting decision trees. The feature with the lowest GINI impurity score gets chosen as the root node.
+
+**F1 Score**: Combination of Recall and precision, takes more into account FP and FN than accuracy. 
+* 2 * ( Recall * Precision) / ( Recall + Precision )
+
