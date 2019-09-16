@@ -15,3 +15,5 @@ AWS Certified Machine Learning – Study Notes
 # 4. [Deep Learning](4-deep-learning.md)
 
 # 5. [Model Performance and Optimization](5-model-performance.md)
+
+# 6. [Machine Learning Tools and Frameworks](6-tools-frameworks.md)
