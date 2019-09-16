@@ -54,5 +54,5 @@ Video streaming and facial recognition on the fly that sends out notifications i
 **Service limits** on by default to protect you from accidentally spinning up a large host of very expensive instance for terabytes of data. 
 * Can be lifted, but have to be requested (takes days)
 
-## AWS Machine Learning (ML) - Service, depreciated
+## AWS Machine Learning (ML) - Service, deprecate
 The MVP ML service, but no longer exists. Comes up as a red-herring, never the right answer
