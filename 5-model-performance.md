@@ -26,8 +26,9 @@ Confusion matrix
 **ROC / AUC**: Visualise the balance of sensitivity (TPR) and specificity (FPR) of a  binary classifier when using different cutoff points for the classification 
 
 https://www.youtube.com/watch?v=4jRBRDbJemM
-![](img/roc-max-sens.png)
-![](img/roc-roc.png)
+
+| ![](img/roc-max-sens.png) | ![](img/roc-roc.png) |
+| --- | --- |
 
 **GINI Impurity**: Measure of impurity when evaluating which feature to use in splitting decision trees. The feature with the lowest GINI impurity score gets chosen as the root node.
 
