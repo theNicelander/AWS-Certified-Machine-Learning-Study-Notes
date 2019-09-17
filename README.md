@@ -77,3 +77,12 @@ AWS Certified Machine Learning – Study Notes
 * Comprehend
 * Lex (chatbots)
 * Step Functions
+
+# 9. Sagemaker
+## [Intro](9a-sage-intro.md)
+* Sagemaker High Level
+* Three stages: Build, train, deploy
+* Sagemaker console
+* Sagemaker API
+* Sagemaker Python SDK
+
