@@ -67,3 +67,13 @@ AWS Certified Machine Learning – Study Notes
 * Elastic Map Reduce (EMR) & Spark
 * EC2 instance types for ML
 * AWS Machine Learning service (deprecate)
+
+# 8. [AWS Application Services AI/ML](8-aws-applications-ai-ml.md)
+* Rekognition (images)
+* Rekognition (videos)
+* Polly (text2speech) 
+* Transcribe (speech2text)
+* Translate
+* Comprehend
+* Lex (chatbots)
+* Step Functions
