@@ -1,6 +1,6 @@
 # Machine learning concepts
 ## Machine learning life-cycle
-![](img/life-cycle.png)
+![](img/1-life-cycle.png)
 
 ## Supervised, unsupervised & reinforcement learning
 

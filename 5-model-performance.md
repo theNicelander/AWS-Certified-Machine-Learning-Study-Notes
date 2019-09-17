@@ -27,7 +27,7 @@ Confusion matrix
 
 https://www.youtube.com/watch?v=4jRBRDbJemM
 
-| ![](img/roc-max-sens.png) | ![](img/roc-roc.png) |
+| ![](img/5-roc-max-sens.png) | ![](img/5-roc-roc.png) |
 | --- | --- |
 
 **GINI Impurity**: Measure of impurity when evaluating which feature to use in splitting decision trees. The feature with the lowest GINI impurity score gets chosen as the root node.
