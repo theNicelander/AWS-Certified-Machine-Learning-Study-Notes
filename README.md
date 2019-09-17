@@ -86,3 +86,9 @@ AWS Certified Machine Learning – Study Notes
 * Sagemaker API
 * Sagemaker Python SDK
 
+## [Sagemaker Build](9b-sage-build.md)
+* **!!Define your problem first!!**
+* **Build process**: Visualise, Explore, Feature engineering, Synthesize data, Convert data, Change structure (joins), Split data
+* Ground truth
+* **SageMaker Algorithms**: Built in, marketplace, custom
+* **Algorithm Types**: eg. BlazingText (AWS-Comprehend), Image classification (AWS-Rekognition)
