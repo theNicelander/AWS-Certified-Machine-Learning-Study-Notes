@@ -78,7 +78,7 @@ AWS Certified Machine Learning – Study Notes
 * Lex (chatbots)
 * Step Functions
 
-# 9. Sagemaker
+# 9. Sagemaker -- VERY IMPORTANT TOPIC
 ## [Intro](9a-sage-intro.md)
 * Sagemaker High Level
 * Three stages: Build, train, deploy
