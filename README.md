@@ -105,3 +105,9 @@ AWS Certified Machine Learning – Study Notes
 ## [Sagemaker Deploy](9d-sage-deploy.md)
 * Real-time inference
 * Batch inference
+
+# 10. [Security](10-security.md)
+* Sagemaker root access
+* **AmazoneSageMakerFullAccess** policy: Admin access to SageMaker + necessary access to other services
+* Sagemaker can see objects in S3 by default, can't access
+* Deployed into **public VPC** by default
