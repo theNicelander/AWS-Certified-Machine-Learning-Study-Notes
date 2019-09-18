@@ -102,3 +102,7 @@ AWS Certified Machine Learning – Study Notes
 * Some algorithms only support GPU instances
 * Managed spot training & Checkpoints
 * Automated Hyperparameter tuning
+
+## [Sagemaker Deploy](9d-sage-deploy.md)
+* Real-time inference
+* Batch inference
