@@ -5,7 +5,7 @@ AWS Certified Machine Learning – Study Notes
 
 # Learning Path
 1. [Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
-2. [Whizlabs Practise exams](https://www.whizlabs.com/aws-certified-machine-learning-specialty/)
+2. [Whizlabs Practise exams](https://www.whizlabs.com/aws-certified-machine-learning-specialty/) _(18 September2019:Coming soon)_
 
 # 1. [Machine learning concepts](1-concepts.md)
 * Machine learning lifecycle
@@ -92,7 +92,6 @@ AWS Certified Machine Learning – Study Notes
 * Ground truth
 * **SageMaker Algorithms**: Built in, marketplace, custom
 * **Algorithm Types**: eg. BlazingText (AWS-Comprehend), Image classification (AWS-Rekognition)
-
 ## [Sagemaker Build](9c-sage-train.md)
 * Architecture behind Sagemaker training: Algorithms stored in docker containers in ECS, spin up EC2 instances
 * **AWS Marketplace**: **Algorithms** are to be trained, **Model packages** are pre-trained
