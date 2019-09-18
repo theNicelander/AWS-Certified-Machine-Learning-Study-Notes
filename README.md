@@ -7,7 +7,7 @@ AWS Certified Machine Learning – Study Notes
 1. [Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
 2. [Whizlabs Practise exams](https://www.whizlabs.com/aws-certified-machine-learning-specialty/) _(18 September2019:Coming soon)_
 
-# 1. [Machine learning concepts](1-concepts.md)
+# 1. [Machine learning concepts](01-concepts.md)
 * Machine learning lifecycle
 * Supervised vs Unsupervised vs Reinforcement learning
 * Optimisation
@@ -15,7 +15,7 @@ AWS Certified Machine Learning – Study Notes
 * Hyperparameters
 * Cross-validation
 
-# 2. [Data](2-data.md)
+# 2. [Data](02-data.md)
 * Feature selection
 * Feature engineering
 * Principal Component analysis (PCA)
@@ -24,7 +24,7 @@ AWS Certified Machine Learning – Study Notes
 * Train-test splits & Randomisation
 * RecordIO format
 
-# 3. [Machine learning models](3-machine-learning-models.md) 
+# 3. [Machine learning models](03-machine-learning-models.md) 
 * Logistic Regression
 * Linear regression 
 * SVM
@@ -34,7 +34,7 @@ AWS Certified Machine Learning – Study Notes
 * KNN
 * Latent Dirichlet ALlocation - LDA
 
-# 4. [Deep Learning](4-deep-learning.md)
+# 4. [Deep Learning](04-deep-learning.md)
 * Neural Networks
 * Activations functions (sigmoid, Tanh, ReLU)
 * Weights & biases
@@ -44,7 +44,7 @@ AWS Certified Machine Learning – Study Notes
 * Transfer Learning
 * Recurrent Neural Networks (RNN)
 
-# 5. [Model Performance and Optimization](5-model-performance.md)
+# 5. [Model Performance and Optimization](05-model-performance.md)
 * Sensitivity (Recall / TPR)
 * Specificity (TNR)
 * Precision
@@ -53,13 +53,13 @@ AWS Certified Machine Learning – Study Notes
 * F1 Score
 * Gini impurity
 
-# 6. [Machine Learning Tools and Frameworks](6-tools-frameworks.md)
+# 6. [Machine Learning Tools and Frameworks](06-tools-frameworks.md)
 * Pytorch & Scikit-learn
 * Tensorflow & Keras
 * MXNET & Gluon
 * Tensors & Graphs
 
-# 7. [AWS Services](7-aws-services.md)
+# 7. [AWS Services](07-aws-services.md)
 * S3 Datalakes
 * Kinesis (video stream / data stream / firehose / data analytics)
 * Glue 
@@ -68,7 +68,7 @@ AWS Certified Machine Learning – Study Notes
 * EC2 instance types for ML
 * AWS Machine Learning service (deprecate)
 
-# 8. [AWS Application Services AI/ML](8-aws-applications-ai-ml.md)
+# 8. [AWS Application Services AI/ML](08-aws-applications-ai-ml.md)
 * Rekognition (images)
 * Rekognition (videos)
 * Polly (text2speech) 
@@ -79,20 +79,21 @@ AWS Certified Machine Learning – Study Notes
 * Step Functions
 
 # 9. Sagemaker -- VERY IMPORTANT TOPIC
-## [Intro](9a-sage-intro.md)
+## [Intro](09a-sage-intro.md)
 * Sagemaker High Level
 * Three stages: Build, train, deploy
 * Sagemaker console
 * Sagemaker API
 * Sagemaker Python SDK
 
-## [Sagemaker Build](9b-sage-build.md)
+## [Sagemaker Build](09b-sage-build.md)
 * **!!Define your problem first!!**
 * **Build process**: Visualise, Explore, Feature engineering, Synthesize data, Convert data, Change structure (joins), Split data
 * Ground truth
 * **SageMaker Algorithms**: Built in, marketplace, custom
 * **Algorithm Types**: eg. BlazingText (AWS-Comprehend), Image classification (AWS-Rekognition)
-## [Sagemaker Train](9c-sage-train.md)
+
+## [Sagemaker Train](09c-sage-train.md)
 * Architecture behind Sagemaker training: Algorithms stored in docker containers in ECS, spin up EC2 instances
 * **AWS Marketplace**: **Algorithms** are to be trained, **Model packages** are pre-trained
 * **Where to access data**: S3, EFS, FSx for Lustre 
@@ -102,7 +103,7 @@ AWS Certified Machine Learning – Study Notes
 * Managed spot training & Checkpoints
 * Automated Hyperparameter tuning
 
-## [Sagemaker Deploy](9d-sage-deploy.md)
+## [Sagemaker Deploy](09d-sage-deploy.md)
 * Real-time inference
 * Batch inference
 
