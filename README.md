@@ -5,7 +5,7 @@ AWS Certified Machine Learning – Study Notes
 
 # Learning Path
 1. [Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
-2. [Whizlabs Practise exams](https://www.whizlabs.com/aws-certified-machine-learning-specialty/)
+2. [Whizlabs Practise exams](https://www.whizlabs.com/aws-certified-machine-learning-specialty/) _(18 September2019:Coming soon)_
 
 # 1. [Machine learning concepts](1-concepts.md)
 * Machine learning lifecycle
