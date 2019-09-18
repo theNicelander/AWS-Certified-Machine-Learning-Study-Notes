@@ -92,3 +92,13 @@ AWS Certified Machine Learning – Study Notes
 * Ground truth
 * **SageMaker Algorithms**: Built in, marketplace, custom
 * **Algorithm Types**: eg. BlazingText (AWS-Comprehend), Image classification (AWS-Rekognition)
+
+## [Sagemaker Build](9c-sage-train.md)
+* Architecture behind Sagemaker training: Algorithms stored in docker containers in ECS, spin up EC2 instances
+* **AWS Marketplace**: **Algorithms** are to be trained, **Model packages** are pre-trained
+* **Where to access data**: S3, EFS, FSx for Lustre 
+* **Filetypes**: Files / Pipe (recordIO)
+* **Instance types**: ml.m4, ml.c4, ml.p2 (gpu)
+* Some algorithms only support GPU instances
+* Managed spot training & Checkpoints
+* Automated Hyperparameter tuning
