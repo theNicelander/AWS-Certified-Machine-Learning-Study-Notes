@@ -5,8 +5,10 @@ AWS Certified Machine Learning – Study Notes
 
 # Learning Path
 1. [Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
-2. [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
-3. Practise exams
+1. [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
+1. Blog Posts
+    * [Passing the AWS Certified Machine Learning Specialty Exam](https://blog.thecloudtutor.com/2019/03/18/Passing-the-AWS-Certified-Machine-Learning-Specialty-Exam-MLS-C01.html)
+1. Practise exams
     * [Udemy practise exams (£20)](https://www.udemy.com/course/aws-machine-learning-practice-exam/?couponCode=MLPRACTICE) 
     * [Whizlabs Practise exams _(£29 - Coming soon)_](https://www.whizlabs.com/aws-certified-machine-learning-specialty/)
     * 
