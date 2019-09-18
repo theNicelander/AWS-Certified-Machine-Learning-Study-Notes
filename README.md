@@ -1,11 +1,17 @@
 # AWS-Certified-Machine-Learning-Study-Notes
 AWS Certified Machine Learning – Study Notes
 
-> These notes are written by a data scientist, so some basic topics may be glanced over.
+> These notes are written by a data scientist, so some basic topics may be glanced over 
 
 # Learning Path
 1. [Linux Academy](https://linuxacademy.com/cp/modules/view/id/340)
-2. [Whizlabs Practise exams](https://www.whizlabs.com/aws-certified-machine-learning-specialty/) _(18 September2019:Coming soon)_
+2. [SageMaker FAQ](https://aws.amazon.com/sagemaker/faqs/)
+3. Practise exams
+    * [Udemy practise exams (£20)](https://www.udemy.com/course/aws-machine-learning-practice-exam/?couponCode=MLPRACTICE) 
+    * [Whizlabs Practise exams _(£29 - Coming soon)_](https://www.whizlabs.com/aws-certified-machine-learning-specialty/)
+    * 
+
+Below is a high level overview. More in-depth explanations are found in separate files
 
 # 1. [Machine learning concepts](01-concepts.md)
 * Machine learning lifecycle
@@ -112,3 +118,52 @@ AWS Certified Machine Learning – Study Notes
 * **AmazoneSageMakerFullAccess** policy: Admin access to SageMaker + necessary access to other services
 * Sagemaker can see objects in S3 by default, can't access
 * Deployed into **public VPC** by default
+
+# Other 
+* **AWS DeepLens** – Deep learning enabled video camera for developers
+* **AWS DeepRacer** - Reinforcement learning enabled race-car 
+
+## Sagemaker FAQs notes
+* **CloudTrail** to see SageMaker API calls
+* **Notebooks persist** on the volume of the attached instance. So stopping the instance doesn't make you lose your progress.
+* **Managed spot training** uses Spot instance to train. Have to specify time to wait for spot capacity
+    * Good when you have flexibility
+    * Uses checkpoints to store progress. Avoids failure when instance is terminated. 
+* BlazingText
+* **Automated hyperparameter tuning** available for all algorithms (including custom one).
+    * Uses a custom Bayesian Optimization under the hood
+* Can currently only optimise for one objective (ie. accuracy or speed)
+* **Reinforcement learning** is a machine learning technique that enables an agent to learn in an interactive environment by trial and error using feedback from its own actions and experiences
+    * Available to train in SageMaker. Can use **AWS RoboMaker**, Open AI Gym or commercial simulation environments to train 
+* **SageMaker Neo**: Enables machine learning models to train once and run anywhere in the cloud and at the edge
+    * Optimizes models built with popular deep learning frameworks that can be used to deploy on multiple hardware platforms
+    * Two major components – a **compiler** and a **runtime**
+    * Supports the most popular deep learning models for computer vision and decision tree models: 
+        * AlexNet, ResNet, VGG, Inception, MobileNet, SqueezeNet, and DenseNet models trained in MXNet and TensorFlow, 
+        * classification and random cut forest models trained in XGBoost
+* Model performance from multiple runs is available in the Management Console in tabular form giving you a **leaderboard**
+* Can't directly access the underlying hardware SageMaker runs on
+* Can scale manually, or automatically using **Application Auto Scaling**
+* **CloudWatch Metrics** to monitor SageMaker environment 
+    * Logs written to CloudWatch
+
+## SageMaker Algorithms - Overview
+* **Built-in algorithms**: 
+    * linear regression
+    * logistic regression 
+    * k-means clustering
+    * principal component analysis (PCA)
+    * factorization machines
+    * neural topic modeling 
+    * latent dirichlet allocation
+    * gradient boosted trees
+    * sequence2sequence
+    * time series forecasting
+    * word2vec
+    * image classification
+* **Optimized containers**: 
+    * Apache MXNet
+    * Tensorflow
+    * Chainer
+    * PyTorch
+* **Custom algorithms** by using Docker images
